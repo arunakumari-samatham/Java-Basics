@@ -1,9 +1,9 @@
 package dependency.injection;
 
 
-public class ServiceB  implements Service{
+public abstract class ServiceB  implements Service{
+@ Override
 
-	@Override
 	public String getInfo() {
         return "ServiceB’s Info";
 	}

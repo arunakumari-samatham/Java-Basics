@@ -2,7 +2,7 @@ package dependency.injection;
 
 
 
-public class AirtelService implements Service{
+public abstract class AirtelService implements Service{
 
 	@Override
 	public String getInfo() {
